@@ -1,22 +1,26 @@
 /* Styles for Mobile Site */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    background-color:gray;
+    background-color: #B098A4;
+    font-family: "Noto Sans", sans-serif;
 }
 
 /* Head & Hero */
 header,main,footer {
-    background-color:white;
+    background-color: #747572;
+    color: #E5EBEA;
     padding:1rem;
-    box-shadow:10px 10px 10px rgba(0,0,0,.5);
     margin-bottom:2rem;
-    border:5px solid #ddd;
+    box-shadow: 0px 0px 10px 0px #000000;
+    border:5px solid #45503B;
 }
 header {
     text-align:center;
 }
 main {
-    border:5px solid #ddd;
+    border:5px solid #45503B;
 }
 h1 {
     font-size:400%;
@@ -47,11 +51,11 @@ h1 {
 #reviews .review {
     display:flex;
     flex-direction: column;
-    border:3px solid #ddd;
+    border:3px solid #A29C9B;
     border-radius:1rem;
     padding:2rem;
     margin-bottom:1rem;
-    background-color:#eee;
+    background-color:#56494E;
 }
 .review .content {
     flex-grow:4;
@@ -82,9 +86,8 @@ footer {
         padding:2rem;
     }
     header,main,footer {
-        background-color:white;
+        background-color:#747572;
         padding:2.5rem 5rem;
-        box-shadow:10px 10px 10px rgba(0,0,0,.5);
         margin-bottom:2rem;
     }
 
